@@ -130,3 +130,12 @@ nav {
   transform: translateY(-100%);
 }
 
+.nav_links.open {
+    transform: translateY(0);
+}
+
+.nav_links a {
+    font-family: var(--header-font);
+
+    
+}
