@@ -80,3 +80,27 @@ html,
 body {
     scroll-behavior: smooth;
 }
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--extra-light);
+}
+
+nav {
+    position: fixed;
+    isolation: isolate;
+    width: 100%;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    z-index: 9;
+}
+
+.nav_header {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--extra-light);
+    border-bottom: 1px solid var(--text-light);
+}
