@@ -288,3 +288,38 @@ nav {
     background-repeat: no-repeat;
 }
 
+.discount_container h2 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: var(--header-font);
+  color: var(--white);
+}
+
+.discount_container h2 span {
+  font-size: 2rem;
+}
+
+.package_grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.package_card_details {
+  padding: 1rem;
+}
+
+.package_card_details h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.package_card_details p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+  line-height: 1.5rem;
+}
+
